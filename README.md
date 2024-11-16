@@ -1,3 +1,3 @@
 # React + Vite
 
-<-------- LIVE AT   ------https://weather-app-seven-orcin-91.vercel.app/-----   >
+<-------- HOSTED AT------https://weather-app-seven-orcin-91.vercel.app/-----   >
