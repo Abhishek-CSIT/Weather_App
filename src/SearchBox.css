@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .search-box {
   display: flex;
   flex-direction: column;
@@ -25,3 +26,32 @@
 .search-box button:hover {
   background-color: #0056b3;
 }
+=======
+.search-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-box input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-box button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-box button:hover {
+  background-color: #0056b3;
+}
+>>>>>>> 93aea7a234f13667092782f6a5b16a3b254753b1
