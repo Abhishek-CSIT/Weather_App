@@ -14,6 +14,8 @@ export default function SearchBox({ updateWeatherInfo, isCelsius }) {
           isCelsius ? "metric" : "imperial"
         }`
       );
+
+      console.log(response);
       const jsonResponse = await response.json();
       const result = {
         city: city,
