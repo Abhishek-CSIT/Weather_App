@@ -32,7 +32,7 @@ export default function SearchBox({ updateWeatherInfo, isCelsius }) {
   };
 
   const handleSubmit = async (evt) => {
-    evt.preventDefault();
+          evt.preventDefault()
     try {
       const newInfo = await getWeatherInfo();
       updateWeatherInfo(newInfo);
@@ -48,7 +48,7 @@ export default function SearchBox({ updateWeatherInfo, isCelsius }) {
         );
       }
 
-      setCity("");
+     
     } catch (err) {
       setError(true);
     }

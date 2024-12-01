@@ -20,7 +20,7 @@ export default function LandingPage({ updateWeatherInfo, isCelsius }) {
       <div className="content-container">
         <h1>Welcome to the Weather App</h1>
         <p>
-          Created by <strong>Abhishek</strong>
+          Created by <strong>Abhishek with &#x2665;</strong>
         </p>
         <SearchBox
           updateWeatherInfo={updateWeatherInfo}
